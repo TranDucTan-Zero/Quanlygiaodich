@@ -13,4 +13,7 @@ public interface GiaoDichService {
     int countLoaiNha(String loaiNha);
     double averageThanhTienDat();   
     List<GiaoDich> searchGiaoDichByMa(String maGiaoDich);
+    // observer
+    public void update(GiaoDich giaoDich);
+    
 }

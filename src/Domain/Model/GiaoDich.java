@@ -1,8 +1,11 @@
 package Domain.Model;
 
 import java.util.Date;
+;
+
 
 public abstract class GiaoDich {
+     
     private String maGiaoDich;
     private Date ngayGiaoDich;
     private double donGia;
@@ -64,6 +67,7 @@ public abstract class GiaoDich {
         return "Mã giao dịch: " + maGiaoDich + ", Ngày giao dịch: " + ngayGiaoDich + ", Đơn giá: " + donGia
                 + ", Diện tích: " + dienTich + ", Thông tin khác: " + thongTinKhac + ", Thành tiền: " + tinhThanhTien();
     }
+    
 
     public abstract double tinhThanhTien();
 }

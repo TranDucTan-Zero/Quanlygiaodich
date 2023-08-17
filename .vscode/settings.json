@@ -1,13 +1,21 @@
 {
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre8.jar",
-        "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre8-javadoc.jar",
-        "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre8-sources.jar",
-        "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11.jar",
-        "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11-javadoc.jar",
-        "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11-sources.jar"
-    ]
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre8-sources.jar",
+            "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11-sources.jar",
+            "c:\\Users\\this pc\\Documents\\Tệp tin lưu trữ PMCode\\sqljdbc_12.4.0.0_enu\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre8-sources.jar",
+            "c:\\Users\\this pc\\Documents\\Tệp tin lưu trữ PMCode\\sqljdbc_12.4.0.0_enu\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11-sources.jar",
+            "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre8.jar",
+            "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre8-javadoc.jar",
+            "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11.jar",
+            "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11-javadoc.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\this pc\\Documents\\Tệp tin lưu trữ PMCode\\sqljdbc_12.4.0.0_enu\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11-javadoc.jar",
+            "c:\\Users\\this pc\\Downloads\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.0.jre11.jar"
+        ]
+    }
 }

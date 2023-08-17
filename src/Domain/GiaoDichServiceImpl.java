@@ -95,4 +95,12 @@ public class GiaoDichServiceImpl implements GiaoDichService {
         }
         return result;
     }
+    // thông báo
+    @Override
+    public void update(GiaoDich giaoDich) {
+        System.out.println("Giao dịch với mã " + giaoDich.getMaGiaoDich() + " đã thay đổi.");
+        // Thực hiện các hành động cần thiết khi giao dịch thay đổi, chẳng hạn gửi thông báo đến người dùng.
+    }
 }
+
+

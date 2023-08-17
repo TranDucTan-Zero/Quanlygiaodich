@@ -4,12 +4,13 @@ import java.util.Date;
 
 public class GiaoDichNha extends GiaoDich {
     private String loaiNha;
-
+    
     public GiaoDichNha(String maGiaoDich, Date ngayGiaoDich, double donGia, double dienTich, String thongTinKhac) {
-        super(maGiaoDich, ngayGiaoDich, donGia, dienTich, "");
-
+        super(maGiaoDich, ngayGiaoDich, donGia, dienTich, thongTinKhac);
+    
         this.loaiNha = thongTinKhac;
     }
+    
 
     public String getLoaiNha() {
         return loaiNha;
